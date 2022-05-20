@@ -1,0 +1,222 @@
+:root {
+    --Pink: hsl(322, 100%, 66%);
+    --Very-Pale-Cyan: hsl(193, 100%, 96%);
+    --Very-Dark-Cyan: hsl(192, 100%, 9%);
+    --Grayish-Blue: hsl(208, 11%, 55%);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.box1{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    flex-wrap: wrap;
+    background-image: url(./images/bg-hero-desktop.svg);
+}
+.b1sub1{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.b1sub1 img{
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    width: 300px;
+}
+.b1sub1 h2{
+    width: auto;
+    height: auto;
+    margin-right: 50px;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px var(--Grayish-Blue);
+    font-size: 17px;
+    padding: 14px 80px;
+    border-radius: 30px;
+    border: none;
+    font-weight: 600;
+    color: #1b363d;
+    cursor: pointer;
+}
+.b1sub2{
+    width: 100%;
+    height: auto;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+.b1sub2 div{
+    margin-left: 50px;
+}
+.b1sub2 img{
+    width: 800px;
+    height: auto;
+    margin-right: 50px;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.mainbox{
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow:  5px 5px 10px #d9d9d9,
+             -5px -5px 10px #e7e7e7;
+}
+.mainbox img{
+    width: 350px;
+    height: 350px;
+    object-fit: cover;
+}
+.texto{
+    width: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Open Sans', sans-serif;
+}
+.texto h1{
+    margin-bottom: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.boxfooter {
+    width: 35%;
+    box-shadow: 0 0 0.4em rgba(128, 128, 128, 0.516);
+    padding: 3em;
+    bottom: -17em;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  .boxfooter h2 {
+    text-align: center;
+  }
+  .boxfooter button {
+    background-color: #fd30b2;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 40px;
+    margin-top: 1em;
+    border: none;
+    color: white;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px #eeecfa;
+  }
+  .boxfooter button:hover{
+    background-color: #ff9bdb;
+  }
+footer {
+    background-color: #00252e;
+    padding: 8em 3em 3em 3em;
+    color: white;
+  }
+  footer .footer {
+    display: flex; 
+  }
+  .footer-section1 {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 25%;
+  }
+  .footer-section1 .img {
+    object-position: center;
+    object-fit: cover;
+    width: 15em;
+    height:5em ;
+    color: white;
+  }
+  .footer-datos {
+    display: flex;
+    gap: 1em;
+  }
+  .footer-datos img {
+    height: 1em;
+  }
+  .footer-section2 {
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 1em;
+  }
+  .icono {
+    display: flex;
+    align-self: center;
+  }
+  .icono img {
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+  }
+  
+  .footer-section3 {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  @media only screen and (max-width: 650px) {
+    .mainbox{
+      width: 100%;
+      height: auto;
+      display: inline-flex;
+      flex-direction: column;
+    }
+    .mainbox img{
+      width: 200px;
+      height: 200px;
+    }
+    .b1sub2{
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .b1sub1{
+      height: auto;
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .texto{
+      display: inline-flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .footer{
+      display: inline-flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .b1sub2 img{
+      width: 300px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+    }
+  }
+  
